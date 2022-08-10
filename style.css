@@ -65,7 +65,7 @@ h2{
 .input_wrap{
     display: flex;
     align-items: center;
-    border: 1px solid #D3E4CD;
+    /* border: 1px solid #D3E4CD; */
     margin-top: 20px;
 }
 
@@ -79,13 +79,18 @@ input{
 
 button{
     background: #D3E4CD;
-    border: 1px solid #D3E4CD;
+    /* border: 1px solid #D3E4CD; */
+    border: none;
     color: #2D3748;
     height: 100%;
     font-size: 16px;
     padding: 0 20px;
     cursor: pointer;
 }
+
+/* .btn{
+    background: #D3E4CD;
+} */
 
 button:hover{
     background: #ADC2A9;
